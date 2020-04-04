@@ -1,0 +1,21 @@
+THIS IS THE LOGFILE FOR THE INSTALLATION AND USE OF MoDIL
+NOTES:
+Spent over an hour troubleshooting the error below, no documentation or forums
+INPUT:
+
+DEPENDENCIES:
+
+COMMANDS USED TO INSTALL: (note requires a lot of manipulation)
+wget http://compbio.cs.toronto.edu/modil/src/modil_beta_v2.tar.gz
+tar -xvzf modil_beta_v2.tar.gz
+	In mrfstructvar.properties:
+		changed DATA_DIR_USER to /usr/local/lib/SV_tools/dependencies_tools/tools/MoDIL
+		changed EXE_DIR_USER to /usr/local/lib/SV_tools/dependencies_tools/tools/MoDIL
+	In MoDIL_simple.py:
+		changed MoDIL_HOME to /usr/local/lib/SV_tools/dependencies_tools/tools/MoDIL/mrfstructvar
+	PYTHON=$PYTHONPATH:[MoDIL_Home]:[MoDIL_Home]/modules
+python test/modil_demo.py
+COMMANDS USED TO RUN:
+
+TROUBLESHOOTING:
+ERROR1: command: python test/modil_demo.py; Traceback (most recent call last):; File "test/modil_demo.py", line 7, in <module>; import MPProperties; ImportError: No module named MPProperties

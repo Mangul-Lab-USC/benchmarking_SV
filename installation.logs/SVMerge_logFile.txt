@@ -1,0 +1,19 @@
+THIS IS THE LOGFILE FOR INSTALLING AND USING SVMerge
+NOTES:
+
+INPUT:
+
+DEPENDENCIES:
+BreakDancerMax, Pindel, CnD, and SECluster
+BEDTools
+Samtoolsi
+Exonerate
+Set::IntSpan
+
+COMMANDS USED TO INSTALL:
+download from sourceforge.net/projects/svmerge/?source=typ_redirect
+
+COMMANDS USED TO RUN:
+
+ERROR (POTENTIAL REASON FOR NOT CONTINUING):
+Error1: too many dependencies. Exonerate requires glib. failed to install glib

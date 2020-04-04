@@ -1,0 +1,43 @@
+THIS IS THE LOGFILE FOR THIE INSTALLATION AND USE OF MEERKAT
+NOTES:
+
+INPUT:
+pair end reads in BAM format
+DEPENDENCIDES:
+Cmake 2.6.4 and above
+PERL 5.8.1 and above
+BioPERL 1.5.0 and above
+	cpanm Bio::Perl
+R 2.6.1
+Samtools 0.1.5 to 0.1.19
+BWA 0.6.2
+NCBI blast 2.2.10
+Blat 2.2.24
+	failed
+Primer3
+
+COMMANDS USED TO INSTALL:
+install from website http://compbio.med.harvard.edu/Meerkat/meerkat_download_page.php
+tar -xvzf Meerkat.0.189.tar.gz
+BUILD MYBAMTOOLS:
+	cd ./src/
+	tar -xjvf mybamtools.tbz
+	cd mybamtools
+	cd build
+	cmake ..
+	make
+BUILD BAMREADER
+	tar xvjf bamreader.tvz
+	cd bamreader
+	EDIT MAKEFILE AND SET BTROOT TO PATH IN WHICH MYBAMTOOLS WAS EXTRACTED
+	vi Makefile
+	BTROOT = /path/to/mybamtools
+	make
+	mv ./bamreader
+COMMANDS TO USE:
+	
+TROUBLE SHOOTING:
+ERROR 1: /usr/bin/ld: gzstream.o: undefined reference to symbol 'gzread'
+//usr/local/lib/libz.so.1: error adding symbols: DSO missing from command line;collect2: error: ld returned 1 exit status
+	SOLUTION 1: in make file change lbamtools-utils -> lbamtools-utils-lz
+	*SOLUTION THEY GAVE ^ DID NOT WORK*
