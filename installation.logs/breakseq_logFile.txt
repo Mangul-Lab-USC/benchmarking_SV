@@ -1,0 +1,19 @@
+THIS IS THE LOGFILE FOR INSTALLING AND USING breakseq
+INPUT:
+
+DEPENDENCIES:
+Python 2.6.1
+
+COMMANDS USED TO INSTALL:
+wget http://sv.gersteinlab.org/breakseq/download/breakseq_lite_v1.0.tar.gz
+tar -xvzf breakseq_lite_v1.0.tar.gz
+wget 
+
+COMMANDS USED TO RUN:
+./bin/breakseq <output> <input>
+
+ERROR (POTENTIAL REASON FOR NOT CONTINUING)
+"BPLIB location not specified" even after downloading the BPLIB doesn't specify where to put the location
+
+REASON FOR NOT INSTALLING ON HOFFMAN:
+
