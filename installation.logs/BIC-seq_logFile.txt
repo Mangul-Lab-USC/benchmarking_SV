@@ -1,0 +1,54 @@
+THIS IS THE LOGFILE FOR THE INSTALLATION AND USE OF BICSEQ
+NOTES:
+
+INPUT:
+
+DEPENDENCIES:
+
+COMMANDS USED TO INSTALL:
+BICseq-norm:
+wget http://compbio.med.harvard.edu/BIC-seq/NBICseq-norm_v0.2.4.tar.gz
+tar -xvzf NBICseq-norm_v0.2.4.tar.gz
+make clean
+
+COMMANDS USED TO RUN:
+
+TROUBLESHOOTING:
+ERROR1: make: causes errors ex. gcc -g -O2 -lm -Wall   -c -o combineFile/combine.o combineFile/combine.c
+gcc -g -O2 -lm -Wall   -c -o lib/read.o lib/read.c
+lib/read.c: In function ‘read_table’:
+lib/read.c:74:14: warning: variable ‘flag’ set but not used [-Wunused-but-set-variable]
+  int i=0,j=0,flag=1,low_mmry = 40000, is_num=0,k;
+              ^
+gcc -g -O2 -lm -Wall combineFile/combine.o lib/read.o -o combineFile/combineFile
+gcc -g -O2 -lm -Wall   -c -o DataPrepare/DtaPrep.o DataPrepare/DtaPrep.c
+gcc -g -O2 -lm -Wall   -c -o lib/statlib.o lib/statlib.c
+gcc -g -O2 -lm -Wall  DataPrepare/DtaPrep.o lib/read.o lib/statlib.o -o DataPrepare/PrepPois
+DataPrepare/DtaPrep.o: In function `print_oneline':
+/usr/local/lib/SV_tools/dependencies_tools/tools/NBICseq-norm_v0.2.4/DataPrepare/DtaPrep.c:593: undefined reference to `pow'
+/usr/local/lib/SV_tools/dependencies_tools/tools/NBICseq-norm_v0.2.4/DataPrepare/DtaPrep.c:591: undefined reference to `log'
+DataPrepare/DtaPrep.o: In function `calculate_bias':
+/usr/local/lib/SV_tools/dependencies_tools/tools/NBICseq-norm_v0.2.4/DataPrepare/DtaPrep.c:685: undefined reference to `pow'
+/usr/local/lib/SV_tools/dependencies_tools/tools/NBICseq-norm_v0.2.4/DataPrepare/DtaPrep.c:690: undefined reference to `exp'
+/usr/local/lib/SV_tools/dependencies_tools/tools/NBICseq-norm_v0.2.4/DataPrepare/DtaPrep.c:681: undefined reference to `log'
+DataPrepare/DtaPrep.o: In function `fprint_gc_bin':
+/usr/local/lib/SV_tools/dependencies_tools/tools/NBICseq-norm_v0.2.4/DataPrepare/DtaPrep.c:810: undefined reference to `floor'
+DataPrepare/DtaPrep.o: In function `fprintf_predicted':
+/usr/local/lib/SV_tools/dependencies_tools/tools/NBICseq-norm_v0.2.4/DataPrepare/DtaPrep.c:850: undefined reference to `exp'
+/usr/local/lib/SV_tools/dependencies_tools/tools/NBICseq-norm_v0.2.4/DataPrepare/DtaPrep.c:860: undefined reference to `floor'
+DataPrepare/DtaPrep.o: In function `calculate_bias':
+/usr/local/lib/SV_tools/dependencies_tools/tools/NBICseq-norm_v0.2.4/DataPrepare/DtaPrep.c:749: undefined reference to `exp'
+lib/statlib.o: In function `db_shuffle':
+/usr/local/lib/SV_tools/dependencies_tools/tools/NBICseq-norm_v0.2.4/lib/statlib.c:56: undefined reference to `floor'
+lib/statlib.o: In function `db_shuffle_int':
+/usr/local/lib/SV_tools/dependencies_tools/tools/NBICseq-norm_v0.2.4/lib/statlib.c:71: undefined reference to `floor'
+lib/statlib.o: In function `rgamma1':
+/usr/local/lib/SV_tools/dependencies_tools/tools/NBICseq-norm_v0.2.4/lib/statlib.c:99: undefined reference to `log'
+/usr/local/lib/SV_tools/dependencies_tools/tools/NBICseq-norm_v0.2.4/lib/statlib.c:100: undefined reference to `pow'
+/usr/local/lib/SV_tools/dependencies_tools/tools/NBICseq-norm_v0.2.4/lib/statlib.c:103: undefined reference to `pow'
+/usr/local/lib/SV_tools/dependencies_tools/tools/NBICseq-norm_v0.2.4/lib/statlib.c:104: undefined reference to `exp'
+/usr/local/lib/SV_tools/dependencies_tools/tools/NBICseq-norm_v0.2.4/lib/statlib.c:90: undefined reference to `log'
+collect2: error: ld returned 1 exit status
+Makefile:10: recipe for target 'PrepPois' failed
+make: *** [PrepPois] Error 1
+

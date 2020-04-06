@@ -1,0 +1,27 @@
+THIS IS THE LOGFILE FOR INSTALLING AND RUNNING SMuFin:
+
+Input: FASTQ or BAM
+
+Dependencies:
+C/C++ Compiler (GCC >= 4.3.X)
+MPI Environment (OpenMPI >= 1.5.X)
+
+Commands Used to Install:
+wget https://download.open-mpi.org/release/open-mpi/v4.0/openmpi-4.0.0.tar.gz
+tar -zxvf openmpi-4.0.0.tar.gz
+cd openmpi-4.0.0 
+./configure
+cd ..
+wget http://cg.bsc.es/smufin/download.php#
+tar -zxvf smufin_0.9.4_mpi_beta.tar.gz
+cd smufin
+make
+
+Error Message:
+
+mpic++ -O2 -o SMuFin main.cpp ids.a bwa.a samtools.a smufin_bp.a  -lz -lmpi -lgomp
+make: mpic++: Command not found
+make: *** [SMuFin] Error 127
+
+Reason For not Continuing:
+Error could not be resolved and developers were notified of the issue.

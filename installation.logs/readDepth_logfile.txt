@@ -1,0 +1,5 @@
+THIS IS THE LOGFILE FOR INSTALLING AND RUNNING readDepth:
+
+Parameters: tab-delimited file named "params"
+
+Reason For not continuing: This tool requires its own param file that we cannot provide based on our data.

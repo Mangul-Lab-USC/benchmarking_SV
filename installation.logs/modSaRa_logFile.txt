@@ -1,0 +1,14 @@
+THIS IS THE LOGFILE FOR THE INSTALLATION AND USE OF modSaRa:
+
+Command used to install:
+install.packages("modSaRa_1.0.tar.gz",repos=NULL, type="source")
+
+Error:
+Installing package into ‘/u/home/r/rlittman/R/x86_64-pc-linux-gnu-library/3.2’
+(as ‘lib’ is unspecified)
+Warning: invalid package ‘/u/home/r/rlittman/project-zarlab/install/modSaRa_1.0.tar.gz’
+Error: ERROR: no packages specified
+Warning message:
+In install.packages("/u/home/r/rlittman/project-zarlab/install/modSaRa_1.0.tar.gz",  :
+  installation of package ‘/u/home/r/rlittman/project-zarlab/install/modSaRa_1.0.tar.gz’ had non-zero exit status
+

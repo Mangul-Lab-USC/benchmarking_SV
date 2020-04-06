@@ -1,0 +1,21 @@
+THIS IS THE LOGFILE FOR THE INSTALLATION AND USE OF FermiKit
+NOTES:
+https://github.com/lh3/fermikit
+
+INPUT:
+Location of executables: /u/home/b/btstatz/project-zarlab/install/fermikit/fermi.kit
+See github link in NOTES for examples of how to use them
+
+DEPENDENCIES:
+zlib
+
+INSTALLATION:
+First, modify your .bashrc to add my local zlib installation to your path:
+/u/home/b/btstatz/project-zarlab/install/zlib/lib
+Then install FermiKit:
+git clone --recursive https://github.com/lh3/fermikit.git
+cd fermikit
+make
+
+TROUBLESHOOTING:
+Issue posted on github - https://github.com/lh3/fermikit/issues/20

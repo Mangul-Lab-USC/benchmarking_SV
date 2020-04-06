@@ -1,0 +1,31 @@
+THIS IS THE LOGFILE FOR INSTALLING AND USING cn.MOPS
+Input:
+bam files
+Dependencies:
+R
+Rsamtools
+Commands used to install:
+in R: source("https://bioconductor.org/viocLite.R")
+biocLite("cn.mops")
+
+Commands used to run:
+R: library(cn.mops) #load the cn.mops package
+load bamfile from directory:
+	library(Rsamtools) #load library. Download if not available
+		Install Rsamtools:
+		source("http://bioconductor.org/biocLite.R")
+		biocLite("Rsamtools")
+	bam <- scanBam(bamFile) 
+BAMFiles <- list.files(pattern=".bam$")
+bamDataRanges <- getReadCountsFromBAM(BAMFiles)
+
+
+Process:
+Error1: Error in getReadCountsFromBAM(bam) : ; Parameter "mode" must be "paired" or "unpaired"!
+	Solution1: in parameter make sure to put "mode="unpaired/paired"" #changed to unpaired or paired depending on the type
+Error2: Error in basename(BAMFiles) : a character vector argument expected
+	Solution2:
+Error (potential reason for not continuing)
+
+Reason for not installing on hoffman
+
