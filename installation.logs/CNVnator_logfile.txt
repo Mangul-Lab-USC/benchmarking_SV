@@ -1,0 +1,34 @@
+-- ROOT default compression algorithm is lz4
+-- Found GCC. Major version 4, minor version 4
+-- Found a 64bit system
+-- Found GNU compiler collection
+-- ROOT Platform: linux
+-- ROOT Architecture: linuxx8664gcc
+-- Build Type: RelWithDebInfo
+-- Compiler Flags:  -pipe -m64  -Wshadow -Wall -W -Woverloaded-virtual -fsigned-char -pthread 
+-- Looking for ZLib
+-- Looking for Freetype
+-- Building pcre version 8.37 included in ROOT itself
+-- Building LZMA version 5.2.1 included in ROOT itself
+-- Looking for X11
+-- Building AfterImage library included in ROOT itself
+-- Looking for GSL
+-- Looking for OpenGL
+-- Looking for LibXml2
+-- Looking for MySQL
+-- Looking for PostgreSQL
+-- Looking for SQLite
+-- Looking for FFTW3
+-- Looking for BLAS for optional parts of TMVA
+-- A library with BLAS API found.
+-- Enabled support for:  asimage astiff builtin_afterimage builtin_ftgl builtin_gl2ps builtin_glew builtin_llvm builtin_clang builtin_lzma builtin_lz4 builtin_pcre builtin_tbb builtin_vdt builtin_xxhash cling exceptions explicitlink fftw3 gdml genvector http imt mathmore mysql opengl pch pgsql python roofit shared sqlite ssl thread tmva tmva-cpu vdt x11 xft xml
+CMake Error at interpreter/llvm/src/cmake/modules/CheckAtomic.cmake:52 (message):
+  Host compiler appears to require libatomic, but cannot find it.
+Call Stack (most recent call first):
+  interpreter/llvm/src/cmake/config-ix.cmake:330 (include)
+  interpreter/llvm/src/CMakeLists.txt:584 (include)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/u/home/r/ramayyal/Tools/root/build/CMakeFiles/CMakeOutput.log".
+See also "/u/home/r/ramayyal/Tools/root/build/CMakeFiles/CMakeError.log".
