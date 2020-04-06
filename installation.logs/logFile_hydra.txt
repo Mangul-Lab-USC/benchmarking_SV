@@ -1,4 +1,0 @@
-THIS IS THE LOGFILE FOR RUNNING AND USING HYDRA:
-
-ERROR:
-ERROR 1: error in use of pairDiscordants.py
