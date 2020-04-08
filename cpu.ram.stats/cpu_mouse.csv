@@ -1,0 +1,9 @@
+Tool,sample_name,coverage,time,memory
+breakdancer,A_J,1x,1,225.68
+breakdancer,A_J,64x,1,225.676
+breakdancer,BALB_cJ,1x,2,310.918
+breakdancer,BALB_cJ,64x,1,320.258
+gasv,A_J,1x,6,10307
+gasv,A_J,64x,304,11104
+gasv,BALB_cJ,1x,5,10307
+gasv,BALB_cJ,64x,551,12632
