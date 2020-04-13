@@ -1,29 +1,29 @@
-Tool,sample_name,coverage,time,memory
-breakdancer,A_J,1x,1,225.68
-breakdancer,A_J,64x,1,225.676
-breakdancer,BALB_cJ,1x,2,310.918
-breakdancer,BALB_cJ,64x,1,320.258
-gasv,A_J,1x,6,10307
-gasv,A_J,64x,304,11104
-gasv,BALB_cJ,1x,5,10307
-gasv,BALB_cJ,64x,551,12632
-popDEL,A_J,1x,2.68,6.572
-popDEL,A_J,64x,9.05,9.32
-popDEL,BALB_cJ,1x,2.88,8.156
-popDEL,BALB_cJ,64x,10.49,8.784
-smoove,A_J,1x,11.86,244.272
-smoove,A_J,64x,95.71,244.456
-smoove,BALB_cJ,1x,13.89,244.612
-smoove,BALB_cJ,64x,114.47,244.564
-mistrvar,A_J,1x,57.37,902.812
-mistrvar,A_J,64x,2939.84,3073.916
-mistrvar,BALB_cJ,1x,68.09,983.292
-mistrvar,BALB_cJ,64x,3387.34,4419.696
-pindel ,A_J,1x,19,856.203
-pindel ,A_J,64x,990,1236
-pindel ,BALB_cJ,1x,22,856.602
-pindel ,BALB_cJ,64x,1047,1403
-clever,A_J,1x,24,795.758
-clever,A_J,64x,3510,872.949
-clever,BALB_cJ,1x,27,795.758
-clever,BALB_cJ,64x,1915,886.273
+Tool,sample_name,coverage,time,memory(MB),average time per tool per coverage,average memory per tool per coverage,memory (GB),average memory (GB) per tool per coverage
+breakdancer,A_J,1x,1,225.68,1.5,268.299,0.22568,0.268299
+breakdancer,A_J,full_coverage,1,225.676,1,272.967,0.225676,0.272967
+breakdancer,BALB_cJ,1x,2,310.918,,,0.310918,
+breakdancer,BALB_cJ,full_coverage,1,320.258,,,0.320258,
+gasv,A_J,1x,6,10307,5.5,10307,10.307,10.307
+gasv,A_J,full_coverage,304,11104,427.5,11868,11.104,11.868
+gasv,BALB_cJ,1x,5,10307,,,10.307,
+gasv,BALB_cJ,full_coverage,551,12632,,,12.632,
+popDEL,A_J,1x,2.68,6.572,2.78,7.364,0.006572,0.007364
+popDEL,A_J,full_coverage,9.05,9.32,9.77,9.052,0.00932,0.009052
+popDEL,BALB_cJ,1x,2.88,8.156,,,0.008156,
+popDEL,BALB_cJ,full_coverage,10.49,8.784,,,0.008784,
+smoove,A_J,1x,11.86,244.272,12.875,244.442,0.244272,0.244442
+smoove,A_J,full_coverage,95.71,244.456,105.09,244.51,0.244456,0.24451
+smoove,BALB_cJ,1x,13.89,244.612,,,0.244612,
+smoove,BALB_cJ,full_coverage,114.47,244.564,,,0.244564,
+mistrvar,A_J,1x,57.37,902.812,62.73,943.052,0.902812,0.943052
+mistrvar,A_J,full_coverage,2939.84,3073.916,3163.59,3746.806,3.073916,3.746806
+mistrvar,BALB_cJ,1x,68.09,983.292,,,0.983292,
+mistrvar,BALB_cJ,full_coverage,3387.34,4419.696,,,4.419696,
+pindel ,A_J,1x,19,856.203,20.5,856.4025,0.856203,0.8564025
+pindel ,A_J,full_coverage,990,1236,1018.5,1319.5,1.236,1.3195
+pindel ,BALB_cJ,1x,22,856.602,,,0.856602,
+pindel ,BALB_cJ,full_coverage,1047,1403,,,1.403,
+clever,A_J,1x,24,795.758,25.5,795.758,0.795758,0.795758
+clever,A_J,full_coverage,3510,872.949,2712.5,879.611,0.872949,0.879611
+clever,BALB_cJ,1x,27,795.758,,,0.795758,
+clever,BALB_cJ,full_coverage,1915,886.273,,,0.886273,
