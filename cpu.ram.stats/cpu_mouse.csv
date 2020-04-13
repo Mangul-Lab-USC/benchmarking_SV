@@ -7,3 +7,23 @@ gasv,A_J,1x,6,10307
 gasv,A_J,64x,304,11104
 gasv,BALB_cJ,1x,5,10307
 gasv,BALB_cJ,64x,551,12632
+popDEL,A_J,1x,2.68,6.572
+popDEL,A_J,64x,9.05,9.32
+popDEL,BALB_cJ,1x,2.88,8.156
+popDEL,BALB_cJ,64x,10.49,8.784
+smoove,A_J,1x,11.86,244.272
+smoove,A_J,64x,95.71,244.456
+smoove,BALB_cJ,1x,13.89,244.612
+smoove,BALB_cJ,64x,114.47,244.564
+mistrvar,A_J,1x,57.37,902.812
+mistrvar,A_J,64x,2939.84,3073.916
+mistrvar,BALB_cJ,1x,68.09,983.292
+mistrvar,BALB_cJ,64x,3387.34,4419.696
+pindel ,A_J,1x,19,856.203
+pindel ,A_J,64x,990,1236
+pindel ,BALB_cJ,1x,22,856.602
+pindel ,BALB_cJ,64x,1047,1403
+clever,A_J,1x,24,795.758
+clever,A_J,64x,3510,872.949
+clever,BALB_cJ,1x,27,795.758
+clever,BALB_cJ,64x,1915,886.273
