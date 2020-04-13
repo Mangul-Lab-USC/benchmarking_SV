@@ -3,6 +3,6 @@ Updated figures for "A benchmarking of WGS-based structural variant callers" pap
 
 
 
-# Scripts to convert custom formats of SV-detection tools to VCFv4.2 
+### Scripts to convert custom formats of SV-detection tools to VCFv4.2 
 
 Are availble here
