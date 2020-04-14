@@ -10,3 +10,7 @@ Are availble here
 ### Compare deletion inferred from WGS data with the gold standard 
 
 The scripts to compare the deletions inferred by the SV-caller versus  the true deletions is available at 
+
+### Downsampling the WGS samples
+
+-- Varuni please uplaod the python script we used for downsamping 
