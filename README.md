@@ -26,23 +26,23 @@ This project contains the links to the datasets and the code that was used for o
 
 We have evaluated 12 structural variant tools: Biograph, BreakDancer, CLEVER, DELLY, GASV, GRIDSS, indelMINER, MiStrVar, Pindel, PopDel, RDXplorer, LUMPY . Details about the tools and instructions for running can be found in our ["paper"]().
 
-We have prepared ["wrappers"](https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/tree/master/wrappers) in order to run each of the respective tools as well as create standardized log files.
+We have prepared ["wrappers"](https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/tree/master/Scripts/wrappers) in order to run each of the respective tools as well as create standardized log files.
 
 
 ## Data
 
-The vcf files produced by the tools can be found here: https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/tree/master/raw_data/mouse
+The vcf files produced by the tools can be found ['here'] (https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/tree/master/Data/raw_data/mouse)
 The bam files used in the analysis can be found on Google Drive
 
 ## Scripts
 
-Scripts to convert custom formats of SV-detection tools to VCFv4.2 are available here:https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/tree/master/code/modification_scripts
+Scripts to convert custom formats of SV-detection tools to VCFv4.2 are available ['here'](https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/tree/master/Scripts/modification_scripts)
  
-The scripts to compare the deletions inferred by the SV-caller versus the true deletions is available here: https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/blob/master/code/customvcf_mouse.py
+The scripts to compare the deletions inferred by the SV-caller versus the true deletions is available ['here'] (https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/blob/master/Scripts/customvcf_mouse.py)
 
 ## Notebooks and Figures
 
-We have prepared Jupyter Notebooks that utilize the raw data described above to reproduce the results and figures presented in our [manuscript](). The notebooks can be found ["here"](https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/tree/master/notebooks) and the figures can be found ["here"](https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/tree/master/figures)
+We have prepared Jupyter Notebooks that utilize the raw data described above to reproduce the results and figures presented in our [manuscript](). The notebooks can be found ["here"](https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/tree/master/Notebooks) and the figures can be found ["here"](https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/tree/master/Figures)
 
 
 # License
