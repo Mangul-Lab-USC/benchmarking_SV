@@ -1,16 +1,57 @@
-# benchmarking-sv-callers-paper
-Updated figures for "A benchmarking of WGS-based structural variant callers" paper
+# Benchmarking of WGS-based structural variant callers
 
 
+This project contains the links to the datasets and the code that was used for our study : ["A benchmarking of WGS-based structural variant callers"]()
 
-### Scripts to convert custom formats of SV-detection tools to VCFv4.2 
+**Table of contents**
 
-Are availble here
+* [How to cite this study](#how-to-cite-this-study)
+* [Reproducing results](#reproducing-results)
+  * [Tools](#tools)
+  * [Data](#data)
+  * [Scripts](#scripts)
+  * [Notebooks and Figures](#notebooks-and-figures)
+* [License](#license)
+* [Contact](#contact)
 
-### Compare deletion inferred from WGS data with the gold standard 
 
-The scripts to compare the deletions inferred by the SV-caller versus  the true deletions is available at 
+# How to cite this study
 
-### Downsampling the WGS samples
+> 
 
--- Varuni please uplaod the python script we used for downsamping 
+
+# Reproducing results
+
+## Tools
+
+We have evaluated 12 structural variant tools: Biograph, BreakDancer, CLEVER, DELLY, GASV, GRIDSS, indelMINER, MiStrVar, Pindel, PopDel, RDXplorer, LUMPY . Details about the tools and instructions for running can be found in our ["paper"]().
+
+We have prepared ["wrappers"](https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/tree/master/wrappers) in order to run each of the respective tools as well as create standardized log files.
+
+
+## Data
+
+The vcf files produced by the tools can be found here: https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/tree/master/raw_data/mouse
+The bam files used in the analysis can be found on Google Drive
+
+## Scripts
+
+Scripts to convert custom formats of SV-detection tools to VCFv4.2 are available here:https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/tree/master/code/modification_scripts
+ 
+The scripts to compare the deletions inferred by the SV-caller versus the true deletions is available here: https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/blob/master/code/customvcf_mouse.py
+
+## Notebooks and Figures
+
+We have prepared Jupyter Notebooks that utilize the raw data described above to reproduce the results and figures presented in our [manuscript](). The notebooks can be found ["here"](https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/tree/master/notebooks) and the figures can be found ["here"](https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/tree/master/figures)
+
+
+# License
+
+This repository is under MIT license. For more information, please read our [LICENSE.md](./LICENSE.md) file.
+
+
+# Contact
+
+Please do not hesitate to contact us (mangul@usc.edu) if you have any comments, suggestions, or clarification requests regarding the study or if you would like to contribute to this resource.
+
+
