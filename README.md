@@ -36,7 +36,7 @@ The bam files used in the analysis can be found on Google Drive
 
 ## Scripts
 
-Scripts to convert custom formats of SV-detection tools to VCFv4.2 are available ["here"](https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/tree/master/Scripts/modification_scripts)
+Scripts to convert custom formats of SV-detection tools to VCFv4.2 are available ["here"](benchmarking-sv-callers-paper/tree/master/Scripts/modification_scripts)
  
 The scripts to compare the deletions inferred by the SV-caller versus the true deletions is available ["here"] (https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/blob/master/Scripts/customvcf_mouse.py)
 
