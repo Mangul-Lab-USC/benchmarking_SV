@@ -31,14 +31,14 @@ We have prepared ["wrappers"](https://github.com/Mangul-Lab-USC/benchmarking-sv-
 
 ## Data
 
-The vcf files produced by the tools can be found ["here"] (https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/tree/master/Data/raw_data/mouse)
+The vcf files produced by the tools can be found here: https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/tree/master/Data/raw_data/mouse
 The bam files used in the analysis can be found on Google Drive
 
 ## Scripts
 
-Scripts to convert custom formats of SV-detection tools to VCFv4.2 are available ["here"](https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/tree/master/Scripts/modification_scripts)
+Scripts to convert custom formats of SV-detection tools to VCFv4.2 are available here: https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/tree/master/Scripts/modification_scripts
  
-The scripts to compare the deletions inferred by the SV-caller versus the true deletions is available ["here"] (https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/blob/master/Scripts/customvcf_mouse.py)
+The scripts to compare the deletions inferred by the SV-caller versus the true deletions is available here: https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/blob/master/Scripts/customvcf_mouse.py
 
 ## Notebooks and Figures
 
