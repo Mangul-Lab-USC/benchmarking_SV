@@ -31,8 +31,8 @@ We have prepared ["wrappers"](https://github.com/Mangul-Lab-USC/benchmarking-sv-
 
 ## Data
 
-The raw produced by the tools can be found here: https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/tree/master/Data/raw_data/mouse
-The custom vcf files, which are raw vcf's converted to the VCFv4.2 format can be found here:
+The raw vcf's produced by the tools can be found here: https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/tree/master/Data/raw_data/mouse/raw_vcf
+The custom vcf files, which are raw vcf's converted to the VCFv4.2 format can be found here: https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/tree/master/Data/raw_data/mouse
 The fastq and bam files used will be available soon
 
 ## Scripts
@@ -48,7 +48,7 @@ We have prepared Jupyter Notebooks that utilize the raw data described above to 
 * [Figure3 Jupyter Notebook](https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/blob/master/Notebooks/Figure3.ipynb)
 * [Figure4 Jupyter Notebook](https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/blob/master/Notebooks/Figure4.ipynb)
 * [Figure5 Jupyter Notebook](https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/blob/master/Notebooks/Figure5.ipynb)
-* [Supplementary Jupyter Notebook](https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/blob/master/Notebooks/Supplementary%20Figures%20Mouse.ipynb)
+* [Supplementary Figures Jupyter Notebook](https://github.com/Mangul-Lab-USC/benchmarking-sv-callers-paper/blob/master/Notebooks/Supplementary%20Figures%20Mouse.ipynb)
 
 # License
 
