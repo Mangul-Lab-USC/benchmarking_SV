@@ -1,0 +1,17 @@
+##fileformat=VCFv4.2
+##INFO=<ID=SVTYPE,Number=1,Type=String,Description="Type        of      structural      variant detected">
+##INFO=<ID=SVLEN,Number=1,Type=Integer,Description="Length      of      structural      variant">
+##INFO=<ID=SVLEN,Number=1,Type=Integer,Description="Length      of      structural      variant">
+##INFO=<ID=END,Number=1,Type=Integer,Description="End   position        of      structural      variant">
+##INFO=<ID=FLAG,Number=1,Type=String,Description="TP and FP">
+#CHROM  POS     ID      REF     ALT     QUAL    FILTER  INFO
+19	38506457	.	.	<DEL>	.	PASS	SVTYPE=DEL;SVLEN=212;END=38506669;FLAG=FP
+19	44586335	.	.	<DEL>	.	PASS	SVTYPE=DEL;SVLEN=189;END=44586524;FLAG=FP
+19	4388296	.	.	<DEL>	.	PASS	SVTYPE=DEL;SVLEN=366;END=4388662;FLAG=TP
+19	15839298	.	.	<DEL>	.	PASS	SVTYPE=DEL;SVLEN=7378;END=15846676;FLAG=TP
+19	37481095	.	.	<DEL>	.	PASS	SVTYPE=DEL;SVLEN=340;END=37481435;FLAG=TP
+19	42998297	.	.	<DEL>	.	PASS	SVTYPE=DEL;SVLEN=6833;END=43005130;FLAG=TP
+19	45759006	.	.	<DEL>	.	PASS	SVTYPE=DEL;SVLEN=378;END=45759384;FLAG=TP
+19	48054075	.	.	<DEL>	.	PASS	SVTYPE=DEL;SVLEN=714;END=48054789;FLAG=TP
+19	57135243	.	.	<DEL>	.	PASS	SVTYPE=DEL;SVLEN=660;END=57135903;FLAG=TP
+19	57601899	.	.	<DEL>	.	PASS	SVTYPE=DEL;SVLEN=868;END=57602767;FLAG=TP
