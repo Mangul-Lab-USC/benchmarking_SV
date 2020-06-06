@@ -52,7 +52,7 @@ We have prepared Jupyter Notebooks that utilize the raw data described above to 
 
 # License
 
-This repository is under MIT license. For more information, please read our [LICENSE.md](./LICENSE.md) file.
+This repository is under MIT license. For more information, please read our [LICENSE.md](LICENSE.md) file.
 
 
 # Contact
