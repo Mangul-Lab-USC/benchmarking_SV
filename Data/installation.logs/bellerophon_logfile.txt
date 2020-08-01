@@ -1,0 +1,36 @@
+This is the log file for installing Bellerophon.
+
+INPUT: 
+	BAM files
+
+Dependencies:
+	SamTools
+	Blat
+	Readbackwards.pm
+	perl
+
+Commands Used to Install:
+	wget http://cbc.case.edu/Bellerophon/Bellerophon_v1.03.tar.gz
+	tar -xvf Bellerophon_v1.03.tar.gz
+	wget https://cpan.metacpan.org/authors/id/U/UR/URI/File-ReadBackwards-1.05.tar.gz
+	tar -xvf File-ReadBackwards-1.05.tar.gz
+	module load Samtools
+        module load samtools
+ 	module load perl
+        module load blat
+	perl bellerophon.pl --/u/flashscratch/r/rlittman/sv.human/links/SAMN03447936.chr2.0.8.9.bam --blat_config
+
+Error:
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+        LANGUAGE = (unset),
+        LC_ALL = (unset),
+        LANG = "C.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+Unknown option: /u/flashscratch/r/rlittman/sv.human/links/samn03447936.chr2.0.8.9.bam
+Invalid commmand line options.
+
+Reason for not continuing:
+Perl environment could not be used to run Bellerophon and issue could not be resolved
+and authors of Bellerophon were notified of the problem.

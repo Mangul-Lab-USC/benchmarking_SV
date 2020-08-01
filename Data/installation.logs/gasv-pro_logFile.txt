@@ -1,0 +1,22 @@
+THIS IS THE LOGFILE FOR INSTALLING AND USING GASV-pro
+INPUT:
+
+DEPENDENCIES:
+PERL
+JAVA >= 5
+ant
+
+COMMANDS USED TO INSTALL:
+ANT install:
+        "JAVA_HOME environment not set."  
+./install
+COMMANDS USED TO RUN:
+	java -Xms512m -Xmx2048m -jar BAMToGASV.jar Example.bam
+	./GASVPro-CC <parametersFile> <clustersFile>
+Preprocessing:
+        java -Xms512m -Xmx2048m -jar BAMToGASV.jar Example.bam
+
+ERROR (potential reason for not continuing)
+
+REASON FOR NOT INSTALLING ON HOFFMAN
+Root access

@@ -1,0 +1,26 @@
+THIS IS THE LOGFILE FOR INSTALLING AND USING SplitRead
+INPUT:
+fastq (PE or SE)
+
+DEPENDENCIES:
+mrsFAST
+zlib
+samtools
+C compiler SPLITREAD developed with gcc v 4.1.2
+bedtools (if you have a BAM file)
+
+COMMANDS USED TO INSTALL:
+./Make.sh
+
+COMMANDS USED TO RUN: (splitread.sourceforge.net/manual.html)
+
+If you have a BAM file use:
+bedtools bamtofastq -i <BAM> -fq <FASTQ>
+
+./SplitReadAll_lite /home/russell/SV_data/chr19_new.fa /home/russell/SV_data/chr19_new.fa 70 10 35 70 500 10000000 /home/russell/SV_data/chr19_new.fa.fai /home/russell/SV_data/A_J.chr19.1.25p_sorted.fq test /home/russell/SV_data/A_J.chr19.1.25p_sorted.fq output.test
+
+ERROR (POTENTIAL REASON FOR NOT CONTINUING):
+ERROR 1: Segmentation fault (core dumped)
+	SOLUTION1: Solution online didn't work: https://sourceforge.net/p/splitread/discussion/1849504/thread/6c392ab4/
+	
+	

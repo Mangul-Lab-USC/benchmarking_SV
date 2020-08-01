@@ -1,0 +1,25 @@
+THIS IS THE LOGFILE FOR INSTALLING AND USING tigra:
+NOTES:
+takes a list of putative SV calls
+
+INPUT:
+SV calls
+bam files
+
+DEPENDENCIES:
+samtools >= 0.1.19
+
+COMMANDS USED TO INSTALL:
+wget http://odin.mdacc.tmc.edu/~kchen3/tigra/tigra-0.4.0.tar.gz
+tar -xvzf tigra-0.4.0.tar.gz
+modify makefile to point to the samtools folder on your system
+
+COMMANDS USED TO RUN:
+
+ERROR (potential reason for not continuing):
+ERROR 1: Requires manipulation of Makefile, but doesn't specify where to put samtools path
+
+
+1/18/19:
+
+Thanks for the question. In Makefile, there are two places specifying samtools. If you go to https://bitbucket.org/xianfan/tigra/src/master/Makefile, they are line 3 and 5. Let me know if more questions.

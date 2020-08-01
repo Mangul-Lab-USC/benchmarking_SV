@@ -1,0 +1,53 @@
+THIS IS THE LOGFILE FOR INSTALLING AND USING PRISM
+NOTES:
+
+INPUT:
+SAM
+DEPENDENCIES:
+
+COMMANDS USED TO INSTALL:
+wget http://compbio.cs.toronto.edu/prism/releases/PRISM_1_1_6.linux.x86_64.tar.gz
+tar -xvzf {file}
+cd PRISM
+file bin/smapper
+export PRISM_PATH=$PWD
+
+COMMANDS USED TO RUN:
+preprocessing:
+samtools view -h -o out.sam in.bam
+toolkit/bwasam2prism.py {file}.sam <output folder> <mean of insert size> <std of insert size>
+
+clustering discordant pairs:
+toolkit/cnv_cluster.sh
+
+ERROR (POTENTIAL REASON FOR NOT CONTINUING):
+ERROR1: 
+
+toolkit/run_PRISM.sh -m500 -e30 -r /u/scratch/s/seichang/mouse_reference/chr19.fa -i /u/home/s/seichang/project-zarlab/prism/PRISM_1_1_7b/mouse.sam
+
+[Parameters:]
+mean:   500
+std:    30
+Reference:      /u/scratch/s/seichang/mouse_reference/chr19.fa
+Output folder:  .
+input file:     /u/project/zarlab/seichang/prism/PRISM_1_1_7b/mouse.sam
+pre- read aligner:      BWA
+
+[Spliting sam file ... ]
+processing /u/project/zarlab/seichang/prism/PRISM_1_1_7b/mouse.sam
+
+[Done.]
+
+[PRISM running ... ]
+
+[Processing 10 ... ]
+
+[Preparing input files ... ]
+single read line num:19 pair read line num:0
+
+Traceback (most recent call last):
+  File "/u/home/s/seichang/project-zarlab/prism/PRISM_1_1_7b/toolkit/bwasam2prism.py", line 472, in <module>
+    extend_XA(file1,out_folder,concordant_thresh)
+  File "/u/home/s/seichang/project-zarlab/prism/PRISM_1_1_7b/toolkit/bwasam2prism.py", line 447, in extend_XA
+    if float(single_read_line)/float(pair_num) > 0.5:
+ZeroDivisionError: float division by zero

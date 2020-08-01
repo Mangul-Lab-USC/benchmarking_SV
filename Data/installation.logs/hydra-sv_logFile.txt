@@ -1,0 +1,22 @@
+THIS IS THE LOGFILE FOR INSTALLING AND USING Hydra
+Input:
+
+dependencies:
+samtools
+NovoAlign
+Dependencies:
+
+Commands used to install:
+wget https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/hydra-sv/Hydra.v0.5.3.tar.gz
+tar -xvzf Hydra.v0.5.3.tar.gz;
+cd Hydra-Version-0.5.3;
+make clean;
+make all;
+sudo cp bin/* /usr/local/bin;
+sudo cp scripts/* /usr/local/bin;
+
+Commands used to run:
+samtools view -uF 2 /home/russell/SV_data/A_J.chr19.1.25p_sorted.bam | bamToFastq -bam stdin -fq1 A_J.chr19.1.25p_sorted.disc.1 -fq2 A_J.chr19.1.25p_sorted.disc.2;
+
+Error (potential reason for not continuing):
+Hydra-multi is a more recent version of HYDRA, also HYDRA pipeline requires NovoAlign which requires a license

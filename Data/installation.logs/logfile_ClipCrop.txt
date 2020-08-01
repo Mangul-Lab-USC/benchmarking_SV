@@ -1,0 +1,12 @@
+THIS IS THE LOGFILE FOR THE INSTALLATION AND USE OF ClipCrop
+NOTES:
+
+INPUT:
+
+DEPENDENCIES:
+Node Version Manager
+
+INSTALLATION:
+
+TROUBLESHOOTING:
+Too many dependencies: required the nvm node.js package manager, which failed to properly install on hoffman2

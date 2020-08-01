@@ -1,0 +1,25 @@
+INPUT:
+	BAM files
+
+Dependencies:
+	Python 2.7
+
+Commands Used to Install:
+	git clone https://github.com/xyc0813/SVmine.git
+	cd SVmine
+	unzip -j -a -d build SVmine_V2.zip
+	cd build
+	export PATH=$path/SVmine_V2/build
+	module load python/2.7
+	python svmine_exe_v2.py -h
+
+ERROR:
+	Traceback (most recent call last):
+	  File "svmine_exe_v2.py", line 1, in <module>
+	    from svmine_exe6 import *
+	ImportError: /u/home/r/rchikka1/SVmine/build/svmine_exe6.so: undefined symbol: PyUnicodeUCS4_FromStringAndSize
+
+REASON FOR NOT CONTINUING:
+	Author of tool did not respond to github issue and issue could not be resolved
+
+

@@ -1,0 +1,29 @@
+THIS IS THE LOGFILE FOR INSTALLING AND USING PEMer (SV simulation)
+Input:
+
+Dependencies:
+Python 2 or >
+Perl 5.8 or >
+Megablast
+Smith-Waterman
+Commands used to install:
+wget http://sv.gersteinlab.org/pemer/PEMer_Package.tgz;
+tar -xvzf PEMer_Package.tgz;
+	MEGABLAST (in blast package):
+	wget ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/ncbi-blast-2.7.1+-x64-linux.tar.gz
+	gunzip gunzip ncbi-blast-2.7.1+-x64-linux.tar.gz
+	tar -xvpf ncvi-blast-2.7.1+
+	Smith-Waterman (in EMBOSS package):
+	wget ftp://emboss.open-bio.org/pub/EMBOSS/EMBOSS-6.6.0.tar.gz
+	tar -xvzf EMBOSS-6.6.0.tar.gz
+	./configure
+	make
+Commands used to run:
+#Convert the bam file to fasta
+Stopped at configPepDefault.py (PEMer workflow is really long)
+
+Reason for not installing on hoffman:
+blast not an available module and need root access
+
+Error (potential reason for not continuing)
+
