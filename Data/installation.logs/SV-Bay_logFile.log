@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "src/main_clustering.py", line 37, in <module>
-    handler = logging.FileHandler(config['working_dir'] + config['clustering_log_file'])
-  File "/u/home/n/nikodm/miniconda3/lib/python3.6/logging/__init__.py", line 1032, in __init__
-    StreamHandler.__init__(self, self._open())
-  File "/u/home/n/nikodm/miniconda3/lib/python3.6/logging/__init__.py", line 1061, in _open
-    return open(self.baseFilename, self.mode, encoding=self.encoding)
-FileNotFoundError: [Errno 2] No such file or directory: '/SV-Bay-Test/main_clustering.log'

@@ -1,3 +1,0 @@
-THIS IS THE LOGFILE FOR THE INSTALLATION AND RUNNING OF Read-Depth (CND):
-
-Reason For Not Continuing: The link to Read-Depth (CND) is no longer available and the developer was notified of the issue.

@@ -1,5 +1,0 @@
-THIS IS THE LOGFILE FOR INSTALLATING AND RUNNING freec:
-
-Inputs: aligned single-end, paired-end or mate-pair data in SAM, BAM, SAMtools pileup.
-Dependencies: SAMtools
-Reason for not continuing: freec does not use our bam test files, it has its own input format.

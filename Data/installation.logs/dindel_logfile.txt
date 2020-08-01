@@ -1,5 +1,0 @@
-THIS IS THE LOG FILE FOR INSTALLING dindel:
-Input: BAM files
-Dependencies: Boost, SAMtools, SeqAn
-
-Reason for not continuing: Installing Boost requires sudo access which is not available on the Hoffman Cluster

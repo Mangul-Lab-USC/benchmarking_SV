@@ -1,2 +1,0 @@
-gcc -D_GNUCC -E -I./../include -DCIL=1 ../test/uniform_test.c -o ./uniform_test.i
-../test/uniform_test.c:12:19: error: crest.h: No such file or directory
