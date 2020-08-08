@@ -5,3 +5,10 @@
 10t.Tardis.CBA_J.chr19.100p_sorted.modified.nondel.vcf
 10t.Tardis.DBA_2J.chr19.100p_sorted.modified.nondel.vcf
 10t.Tardis.LP_J.chr19.100p_sorted.modified.nondel.vcf
+nf_10t.Tardis.A_J.chr19.100p_sorted.modified.nondel.vcf
+nf_10t.Tardis.AKR_J.chr19.100p_sorted.modified.nondel.vcf
+nf_10t.Tardis.BALB_CJ.chr19.100p_sorted.modified.nondel.vcf
+nf_10t.Tardis.C3H_HeJ.chr19.100p_sorted.modified.nondel.vcf
+nf_10t.Tardis.CBA_J.chr19.100p_sorted.modified.nondel.vcf
+nf_10t.Tardis.DBA_2J.chr19.100p_sorted.modified.nondel.vcf
+nf_10t.Tardis.LP_J.chr19.100p_sorted.modified.nondel.vcf

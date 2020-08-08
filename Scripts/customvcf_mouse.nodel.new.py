@@ -22,7 +22,7 @@ TN = 0
 FN = 0
 t = sys.argv[1]
 f3=open(sys.argv[4], "w")
-f3.write('##fileformat=VCFv4.2\n##INFO=<ID=SVTYPE,Number=1,Type=String,Description="Type        of      structural      variant detected">\n#INFO=<ID=SVLEN,Number=1,Type=Integer,Description="Length      of      structural      variant">\n##INFO=<ID=SVLEN,Number=1,Type=Integer,Description="Length      of      structural      variant">\n##INFO=<ID=END,Number=1,Type=Integer,Description="End   position        of      structural      variant">\n##INFO=<ID=FLAG,Number=1,Type=String,Description="TP and FP">\n')
+f3.write('##fileformat=VCFv4.2\n##INFO=<ID=SVTYPE,Number=1,Type=String,Description="Type of structural variant detected">\n##INFO=<ID=SVLEN,Number=1,Type=Integer,Description="Length of structural variant">\n##INFO=<ID=END,Number=1,Type=Integer,Description="End position of structural variant">\n#CHROM POS     ID     REF    ALT     QUAL  FILTER  INFO\n')
 # f3.write('##fileformat=VCFv4.2\n##INFO=<ID=SVTYPE,Number=1,Type=String,Description="Type of structural variant detected">\n##INFO=<ID=SVLEN,Number=1,Type=Integer,Description="Length of structural variant">\n##INFO=<ID=END,Number=1,Type=Integer,Description="End position of structural variant">\n#CHROM POS     ID     REF    ALT     QUAL  FILTER  INFO\n')
 
 for j in range(len(software_result)): 
@@ -39,7 +39,7 @@ for j in range(len(software_result)):
             f3.write((software_result[j][7].split(";")[1]).split("=")[1]) 
             f3.write(";END=")
             f3.write(str(software_end))
-            f3.write(";FLAG=TN")
+            f3.write("       TN")
             f3.write('\n')
         elif (abs(gold_start-software_start)<int(t) and abs(gold_end-software_end)<int(t)): #undetected start posn match!
             TN += 1
@@ -49,7 +49,7 @@ for j in range(len(software_result)):
             f3.write((software_result[j][7].split(";")[1]).split("=")[1])
             f3.write(";END=")
             f3.write(str(software_end))
-            f3.write(";FLAG=TN")
+            f3.write("       TN")
             f3.write('\n')
         else: # Now, this must be a miss!
             FN += 1 # we don't really care about this value for non deletions
