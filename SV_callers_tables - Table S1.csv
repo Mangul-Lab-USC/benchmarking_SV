@@ -1,0 +1,179 @@
+,,,,,,,,
+,ID,"Tool 
+name",Version,Year,Webpage of the tool,"Github 
+issue/Email","Log 
+file","Bioc 
+ond 
+a"
+,1,1-2-3SV N/A,N/A,2012,https://github.com/Vityay/1-2-3-SV/,https://github.com/ Vityay/1-2-3-SV/issues/1,Log,no
+,2,inGAP-s v41,3.1.1,2011,http://ingap.sourceforge.net/,https://sourceforge.net/p/ingap/discuss ion/966200/thread/ 599197bd71/,Log,no
+,3,CNVer42,0.8.1,2010,http://compbio.cs.toronto.edu/cnver,brudno@cs.toronto .edu,Log,no
+,4,PRISM43,1.1.6,2012,http://compbio.cs.toronto.edu/prism/,yue.jiang.hit@gma il.com,Log,no
+,5,Splitread 44,0.1,2011,http://splitread.sourceforge.net/,https://sourceforge. net/p/splitread/disc ussion/,Log,no
+,6,NovelSe q45,1.0.2,2010,http://novelseq.sourceforge.net/Home#hn_Resources,cenk@cs.sfu.ca,Log,no
+,7,Meerkat4 6,0.189,2013,http://compbio.med.harvard.edu/Meerkat/,ylixing@gmail.co m,Log,no
+,8,MoDIL47,1.1,2009,http://compbio.cs.toronto.edu/modil/,brudno@cs.toronto .edu,Log,no
+,9,PEMer48,N/A,2009,http://sv.gersteinlab.org/pemer/,korbel@embl.de,Log,no
+,10,SV-Bay4 9,N/A,2016,https://github.com/InstitutCurie/SVBay,N/A,Log,no
+,11,iSVP50,N/A,2013,http://nagasakilab.csml.org/en/isvp,N/A,Log,no
+,12,piCALL5 1,0.01,2011,https://sites.google.com/site/vibansal/software/picall,N/A,Log,no
+,13,Dindel52,1.01,2011,https://github.com/genome/dindel-tgi,N/A,Log,no
+,14,SoftSV53,1.4.2,2016,https://sourceforge.net/projects/softsv/,https://sourceforge. net/p/softsv/discus sion/,Log,no
+,15,SeqSeq54,N/A,2012,N/A,sd_bao@sina.com,Log,no
+,16,ClipCrop 55,N/A,2011,"https:/ 
+/githu 
+b.com /shino 
+ut/clip crop",N/A,Log,no
+,17,SplazerS56,2.4.0,2012,"https://githu 
+b.com /seqan /seqan /tree/ 
+maste 
+r/apps 
+/splaz 
+ers",emde@inf.fu-berlin.de,Log,no
+,18,TIGRA57,0.4.0,2014,"http:// 
+odin. 
+mdacc .tmc.e 
+du/~k 
+chen3 
+/tigra/ 
+tigra 
+0.4.0.tar.gz",kchen3@mdanders on.org,Log,no
+,19,"Read-
+Depth (CND)58",N/A,2010,N/A,rd@sanger.ac.uk,Log,no
+,20,"JointSL 
+M59",N/A,2011,"https:/ 
+/omict ools.c 
+om/joi ntslm 
+tool",albertomagi@gmai l.com,Log,no
+,21,"CNA
+seg60",1,2010,"Broke 
+n 
+Link",Sergii.Ivakhno@ca ncer.org.uk,Log,no
+,22,GASV S Pro61,0.9,2012,"https:/ 
+/stora 
+ge.go 
+oglea 
+pis.co 
+m/goo gle-co de-arc 
+hive-d ownloads/v2 /code. 
+googl 
+e.com /GAS 
+V/GA SVPr 
+oVers 
+ion0.9 .tar.gz",Suzanne_Sindi@B rown.edu,Log,no
+,23,SVMerge62,"1.2r3 
+7",2010,"https:/ 
+/sourc 
+eforge .net/pr 
+ojects/ svmer 
+ge/file s/lates 
+t/dow 
+nload 
+?source=file 
+s",https://sourceforge. net/p/svmerge/disc ussion/1199306/thr ead/1e781e3143/,Log,no
+,24,"BIC-seq 
+263","0.2.4 
+0.7.2",2016,"http:// 
+comp 
+bio.m 
+ed.har 
+vard.e 
+du/BI 
+C-seq/ NBIC 
+seq-n 
+orm_v 0.2.4.t 
+ar.gz/ 
+http:// 
+comp 
+bio.m 
+ed.har 
+vard.e 
+du/BI 
+C-seq/NBIC 
+seq-se 
+g_v0. 
+7.2.tar .gz",peter_park@harvar d.edu,Log,no
+,25,SVM264,1.2,2012,"https:/ 
+/www .ncbi. 
+nlm.ni h.gov/ 
+pmc/a 
+rticles 
+/PMC 
+34670 43/",N/A,Log,no
+,26,Bellerop hon65,N/A,2013,"http:// 
+cbc.ca se.edu /Belle 
+ropho 
+n/",jingli@case.edu,Log,no
+,27,SMUFIN 66,0.9.4,2014,"http:// 
+cg.bsc .es/sm ufin/",http://cg.bsc.es/sm ufin/,Log,no
+,28,falconN/A,"2018. 
+31.08 -03.0 
+6-py 
+2.7-u 
+cs4-b 
+eta",2015,"https:/ 
+/githu 
+b.com /Pacifi cBios 
+cience s/FAL CON",N/A,Log,yes
+,29,"modSaR a 
+New 
+version67",1,2017,"https:/ 
+/publi 
+chealt 
+h.yale 
+.edu/c 
+2s2/so ftware /modS aRa/",heping.zhang@yal e.edu,Log,no
+,30,readDept h68,"0.9.8. 
+4",2015,"https:/ 
+/githu 
+b.com /chris 
+amille 
+r/read 
+Depth",N/A,Log,
+,31,freec21,11.5,2016,"https:/ 
+/githu 
+b.com /Boev 
+aLab/ 
+FREE C",N/A,Log,
+,32,ioncopy6 9,2.1.1,2018,"https:/ 
+/cran.r -proje 
+ct.org/ web/p 
+ackag 
+es/ioncopy/i 
+ndex. 
+html",https://github.com/ cran/ioncopy/issue s/1,Log,no
+,33,SVmine7 0,2,2017,"https:/ 
+/githu 
+b.com /xyc0 
+813/S 
+Vmin 
+e",https://github.com/ xyc0813/SVmine/i ssues/2,Log,no
+,34,CNVnator 72,0.4.1,2014,"https:/ 
+/githu 
+b.com /abyz 
+ovlab/ 
+CNVn ator",N/A,Log,No
+,35,Hydra-Mu lti73,0.5.2,2015,"https:/ 
+/githu 
+b.com /arq5x /Hydr 
+a",N/A,Log,No
+,36,cnmops74,1.26.0,2012,"http:// 
+www. 
+bioinf 
+.jku.at 
+/softw are/cn 
+mops/",N/A,Log,Yes
+,37,breakseek7 5,1.2,2015,"https:/ 
+/sourc 
+eforge .net/pr 
+ojects/ breaks eek/",https://sourceforge. net/p/breakseek/dis cussion/general/thr ead/4cc99d0a/,Log,no
+,38,fermikit76,0.13,2015,"https:/ 
+/githu 
+b.com /lh3/fe rmikit 
+/",https://github.com/ lh3/fermikit/issues/ 20,Log,yes
+,39,breakseq77,1.3,2009,"http:// 
+sv.ger 
+steinla b.org/ 
+breaks eq/",N/A,Log,No
+,40,IndelMiner,0.2,2015,https://github.com/ratan-lab/indelMINER,https://github.com/ratan-lab/indelMINER/issues/9,-,-
+,41,Pindel,0.2.5b8,2015,http://gmt.genome.wustl.edu/packages/pindel/install.html,kaiye@xjtu.edu.cn,-,yes
